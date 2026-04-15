@@ -26,14 +26,13 @@ body {
 }
 
 /* CAPA */
-.hero-step {
-  background-image: url("QUIZZ.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 40px;
+@media (min-width: 1024px) {
+  .hero-step {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000; /* ou #f5f1eb se quiser claro */
+  }
 }
 
 .hero-content {

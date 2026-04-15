@@ -9,32 +9,43 @@
 <body>
   <div class="quiz-app">
     <section class="quiz-screen hero-step active" id="step-cover">
-      <div class="hero-content">
-        <p class="kicker"></p>
-        <h1>THE REAL<br>MOM STYLE</h1>
-        <p class="subtitle">O ESTILO DELA, TRADUZIDO EM PRESENTE.</p>
-        <p class="step-indicator"></p>
+      <div class="hero-media">
+        <img src="QUIZZ.jpg" alt="Quiz Dia das Mães" />
+      </div>
 
-        <h2>Em menos de 1 minuto, te mostramos o que ela realmente vai amar.</h2>
+      <div class="hero-panel">
+        <div class="hero-content">
+          <p class="kicker">l</p>
+          <h1>THE REAL<br>MOM STYLE</h1>
+          <p class="subtitle">O ESTILO DELA, TRADUZIDO EM PRESENTE.</p>
+          <p class="step-indicator">Etapa 1 de 8</p>
 
-        <div class="form-group">
-          <label for="nome">Seu nome</label>
-          <input type="text" id="nome" placeholder="Digite seu nome" />
+          <h2>Em menos de 1 minuto, te mostramos o que ela realmente vai amar.</h2>
+
+          <div class="form-group">
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" />
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Seu telefone</label>
+            <input
+              type="text"
+              id="telefone"
+              placeholder="(00) 00000-0000"
+              maxlength="15"
+            />
+          </div>
+
+          <button class="primary-btn" id="startQuiz" type="button">Continuar</button>
         </div>
-
-        <div class="form-group">
-          <label for="telefone">Seu telefone</label>
-          <input type="text" id="telefone" placeholder="(00) 00000-0000" maxlength="15" />
-        </div>
-
-        <button class="primary-btn" id="startQuiz">Continuar</button>
       </div>
     </section>
 
     <section class="quiz-screen question-step" id="step-question">
       <div class="question-content">
-        <p class="kicker">CHARRY</p>
-        <p class="step-indicator" id="questionStepText"></p>
+        <p class="kicker">Quiz Especial</p>
+        <p class="step-indicator" id="questionStepText">Etapa 2 de 8</p>
 
         <h2 id="questionTitle"></h2>
 

@@ -21,17 +21,17 @@ const questions = [
       {
         letter: "B",
         text: "Vestido que valoriza o corpo",
-        img: "./img/look-b.jpg"
+        img: "lookb.jpg"
       },
       {
         letter: "C",
         text: "Conjunto moderno / com mistura de peças",
-        img: "./img/look-c.jpg"
+        img: "lookc.jpg"
       },
       {
         letter: "D",
         text: "Look de impacto, mais fashion",
-        img: "./img/look-d.jpg"
+        img: "lookd.jpg"
       }
     ]
   },

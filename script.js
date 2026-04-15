@@ -16,7 +16,7 @@ const questions = [
       {
         letter: "A",
         text: "Blusa básica + calça elegante",
-        img: "./img/look-a.jpg"
+        img: "looka.jpg"
       },
       {
         letter: "B",

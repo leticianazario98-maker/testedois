@@ -284,6 +284,30 @@ body {
     width: 100%;
   }
 
+  /* COR BASE (default = preto) */
+body {
+  color: #111;
+}
+
+/* CAPA (Etapa 1) → tudo branco */
+.hero-step,
+.hero-step * {
+  color: #fff;
+}
+
+/* Inputs da capa continuam claros */
+.hero-step input {
+  color: #fff;
+}
+
+/* PERGUNTAS E RESULTADO → garantir preto */
+.question-step,
+.question-step *,
+.result-step,
+.result-step * {
+  color: #111;
+}
+
   .option-img {
     height: 150px;
   }

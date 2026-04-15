@@ -312,3 +312,7 @@ body {
     height: 150px;
   }
 }
+/* GARANTE TEXTO BRANCO NOS BOTÕES */
+.primary-btn {
+  color: #fff !important;
+}

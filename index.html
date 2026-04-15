@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Dia das Mães</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-app">
+    <section class="quiz-screen hero-step active" id="step-cover">
+      <div class="hero-content">
+        <p class="kicker">Quiz Especial</p>
+        <h1>THE REAL<br>MOM STYLE</h1>
+        <p class="subtitle">Queremos ajudar você a acertar 100% nesse Dia das Mães.</p>
+        <p class="step-indicator">Etapa 1 de 8</p>
+
+        <h2>Queremos te conhecer melhor</h2>
+
+        <div class="form-group">
+          <label for="nome">Seu nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" />
+        </div>
+
+        <div class="form-group">
+          <label for="telefone">Seu telefone</label>
+          <input type="text" id="telefone" placeholder="(00) 00000-0000" maxlength="15" />
+        </div>
+
+        <button class="primary-btn" id="startQuiz">Continuar</button>
+      </div>
+    </section>
+
+    <section class="quiz-screen question-step" id="step-question">
+      <div class="question-content">
+        <p class="kicker">Quiz Especial</p>
+        <p class="step-indicator" id="questionStepText">Etapa 2 de 8</p>
+
+        <h2 id="questionTitle"></h2>
+
+        <div class="question-image-wrap" id="questionImageWrap">
+          <img id="questionImage" src="" alt="Imagem da pergunta" />
+        </div>
+
+        <div class="options" id="optionsContainer"></div>
+
+        <div class="nav-actions">
+          <button class="secondary-btn" id="prevBtn" type="button">Voltar</button>
+          <button class="primary-btn" id="nextBtn" type="button">Continuar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz-screen result-step" id="step-result">
+      <div class="result-content">
+        <p class="kicker">Seu resultado</p>
+        <h2 id="resultTitle"></h2>
+        <p class="result-desc" id="resultDescription"></p>
+        <p class="result-person" id="resultPersonName"></p>
+
+        <a
+          class="primary-btn link-btn"
+          id="resultLink"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver seleção de produtos
+        </a>
+
+        <button class="secondary-btn" id="restartBtn" type="button">Refazer quiz</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

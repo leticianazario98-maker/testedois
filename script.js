@@ -92,7 +92,7 @@ const resultsMap = {
     title: "Basic Mom",
     description:
       "Prática, elegante e sem esforço. Prefere peças versáteis que acompanham a rotina com conforto e sofisticação.",
-    link: "https://seulink.com/basic-mom"
+    link: "https://www.charry.com.br/collections/basic-mom"
   },
   B: {
     title: "Glam Mom",

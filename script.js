@@ -98,19 +98,19 @@ const resultsMap = {
     title: "Glam Mom",
     description:
       "Feminina, vaidosa e sempre impecável. Ama se sentir bonita e valoriza looks que destacam sua presença.",
-    link: "https://seulink.com/glam-mom"
+    link: "https://www.charry.com.br/collections/glam-mom"
   },
   C: {
     title: "Authentic Mom",
     description:
       "Autêntica e cheia de personalidade. Escolhe peças que refletem quem ela é, sem seguir padrões.",
-    link: "https://seulink.com/authentic-mom"
+    link: "https://www.charry.com.br/collections/authentic-mom"
   },
   D: {
     title: "Fashion Mom",
     description:
       "Estilosa e sempre à frente. Gosta de tendência, impacto e looks que chamam atenção.",
-    link: "https://seulink.com/fashion-mom"
+    link: "https://www.charry.com.br/collections/fashion-mom"
   }
 };
 
